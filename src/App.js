@@ -1,6 +1,6 @@
 import Expenses from "./Components/Expenses/Expenses";
 
-function App() {
+const App = () => {
   const expenses = [
     {
       title: "Toilet Paper",
@@ -30,6 +30,6 @@ function App() {
       <Expenses items={expenses} />
     </div>
   );
-}
+};
 
 export default App;
